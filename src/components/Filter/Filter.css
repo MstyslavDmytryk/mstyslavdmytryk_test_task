@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-position: 15px 50%;
   border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 @media only screen and (max-width: 1200px) {
