@@ -1,0 +1,65 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-content {
+  padding: 12px 16px;
+}
+
+.card__name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card__race {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* @media only screen and (max-width: 1000px) {
+  .card {
+    width: 100%;
+    height: 308px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 235px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    height: 358px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 285px;
+  }
+} */
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 312px;
+    height: 308px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 235px;
+  }
+}

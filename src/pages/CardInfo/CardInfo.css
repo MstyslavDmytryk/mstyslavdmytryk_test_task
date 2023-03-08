@@ -1,0 +1,105 @@
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.card-info__image {
+  max-width: 300px;
+}
+
+.card-info__image img {
+  border-radius: 50%;
+}
+
+.card-info__name {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.card-info__informations {
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #8e8e93;
+}
+
+.character-details {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 413px;
+}
+
+.character-details span {
+  display: block;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  line-height: 24px;
+  margin-left: 16px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.value {
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: rgba(110, 121, 140, 1);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+.go_back_button {
+  position: absolute;
+  font-family: "Karla";
+  left: 82px;
+  top: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  background-image: url("../../assets/arrow.svg");
+  padding-left: 38px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  background-size: 14%;
+}
+
+@media only screen and (max-width: 440px) {
+  .card-info__image {
+    max-width: 150px;
+  }
+
+  .go_back_button {
+    left: 28px;
+  }
+
+  .card-info__name {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .card-info__informations {
+    margin-top: 34px;
+    margin-right: 200px;
+  }
+
+  .character-details {
+    margin-left: 30px;
+    margin-right: 50px;
+    max-width: 300px;
+  }
+}
